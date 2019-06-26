@@ -14,7 +14,7 @@ services:
       - front
 
   phpfpm:
-    image: raven666/ct-phpfpm:latest
+    image: xu-phpfpm:latest
     container_name: myphpfpm
     build:
      context: .     #目录
