@@ -1,5 +1,6 @@
 # docker-php
-* 安装了swoole 扩展 和 Zookeeper 扩展
+
+php-nginx-mysql-redis安装了swoole 扩展 和 Zookeeper 扩展
 
 ##一. 安装docker
 
