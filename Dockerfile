@@ -69,5 +69,5 @@ RUN wget http://pecl.php.net/get/zookeeper-0.6.4.tgz -O  zookeeper.tgz \
 	&& make install \
   ) \
  && rm -r zookeeper-0.6.4  \
- && rm - zookpeeper.tgz
+ && rm - zookpeeper.tgz \
  && docker-php-ext-enable zookeeper
